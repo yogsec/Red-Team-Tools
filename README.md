@@ -114,6 +114,7 @@ Whether you're a red teamer, penetration tester, purple teamer, or security rese
 - 📦 **[Donut](https://github.com/TheWover/donut)** - Generates position-independent shellcode from .NET assemblies, VBScript, JScript, and other Windows payloads for in-memory execution, avoiding disk-based detection.
 - 🌫️ **[Havoc](https://github.com/HavocFramework/Havoc)** - Modern C2 framework with built-in sleep obfuscation (Ekko), return address spoofing, indirect syscalls, and stack spoofing for evading memory scanners and behavioral detection.
 - 🐍 **[Sliver](https://github.com/BishopFox/sliver)** - Cross-platform implant framework supporting JA3/JA4S fingerprint randomization, session migration, and multiple transport protocols to blend network traffic with legitimate activity.
+- 🐀 **[NukeRat](https://github.com/nukeratframework/nukerat)** - Post-exploitation C2 with a 550+ BOF/.NET Armory, Telegram/Discord channels, PE customization, and implants using indirect syscalls, sleep masking, stack spoofing, and AMSI/ETW patching for in-memory execution.
 - 🛡️ **[EDRChoker](https://github.com/TwoSevenOneT/EDRChoker)** - Throttles EDR telemetry by leveraging Windows QoS policies, requiring no process injection, driver loading, or suspicious memory operations to blind endpoint sensors.
 
 ---
@@ -184,6 +185,7 @@ Whether you're a red teamer, penetration tester, purple teamer, or security rese
 
 - 🎯 **[Cobalt Strike](https://www.cobaltstrike.com/)** - Industry-standard adversary simulation platform with the Beacon payload, featuring Malleable C2 profiles for traffic customization, SMB beacons for internal pivoting, and extensive post-exploitation capabilities including execute-assembly, process injection, and Mimikatz integration.
 - 🐍 **[Sliver](https://github.com/BishopFox/sliver)** - Open-source cross-platform C2 framework supporting mTLS, WireGuard, HTTP(S), and DNS transports with procedurally generated C2 traffic and dynamically compiled implants with unique per-instance encryption keys.
+- 🐀 **[NukeRat](https://github.com/nukeratframework/nukerat)** - Post-exploitation C2 with a 550+ BOF/.NET Armory, Telegram/Discord channels, PE customization, and implants using indirect syscalls, sleep masking, stack spoofing, and AMSI/ETW patching for in-memory execution.
 - 🌫️ **[Havoc](https://github.com/HavocFramework/Havoc)** - Modern malleable post-exploitation C2 framework with a C/ASM agent called Demon, featuring sleep obfuscation via Ekko/FOLIAGE, indirect syscalls, x64 return address spoofing, and token vault capabilities.
 - 🧩 **[Mythic](https://github.com/its-a-feature/Mythic)** - Modular, collaborative C2 platform with plug-and-play agent architecture, web-based React UI, GraphQL API, and built-in MITRE ATT&CK mapping for operational tracking and deconfliction.
 - 🦡 **[Brute Ratel C4](https://bruteratel.com/)** - Commercial command and control framework with a "badger" agent that detects EDR userland hooks via built-in debugger, supports DNS over HTTPS, indirect syscalls, and can tunnel C2 through legitimate services like Microsoft Teams and Slack.
